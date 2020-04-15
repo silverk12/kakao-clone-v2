@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/da02457aa0.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Document</title>
   </head>
   <body>
@@ -36,23 +37,21 @@
       <ul class="chats__list">
         <li class="chats__chat chat">
           <a href="chat.html">
-            <div class="chat__column">
-              <img
-                src="images/avatar.jpg"
-                alt=""
-                class="chat__avatar g-avatar"
-              />
-              <div class="chat__content">
-                <span class="chat__username">
-                  Lynn
-                </span>
-                <span class="chat__preview">
-                  Going Home!!
-                </span>
+            <div class="chats__chat friend">
+              <div class="friend__column">
+                <img
+                  src="images/avatar.jpg"
+                  alt=""
+                  class="friend__avatar m-avatar"
+                />
+                <div class="friend__content">
+                  <span class="friend__username">Lynn</span>
+                  <span class="friend__bottom-text">Going Home!!</span>
+                </div>
               </div>
-            </div>
-            <div class="chat__column">
-              <span class="chat__timestamp">Yesterday</span>
+              <div class="friend__column">
+                <span class="chat__timestamp">Yesterday</span>
+              </div>
             </div>
           </a>
         </li>
@@ -67,6 +66,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="fas fa-comment"></i>
           </a>
         </li>
@@ -82,5 +82,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">please make your screen small!!</span>
+    </div>
   </body>
 </html>

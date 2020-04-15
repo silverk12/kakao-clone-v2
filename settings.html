@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/da02457aa0.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Settings | Kakao clone</title>
   </head>
   <body>
@@ -24,7 +25,9 @@
     </div>
     <header class="header">
       <div class="header__column">
-        <a href="more.html"> <i class="fas fa-arrow-left"></i></a>
+        <a href="more.html" class="header__back-btn">
+          <i class="fas fa-arrow-left"></i
+        ></a>
 
         <h1 class="header__title">Settings</h1>
       </div>
@@ -33,7 +36,7 @@
       </div>
     </header>
     <main class="settings">
-      <sections class="settings__sections">
+      <section class="settings__sections">
         <ul class="settings__list">
           <li class="settings__setting">
             <span class="settings__icon"><i class="fas fa-lock"></i></span>
@@ -48,7 +51,26 @@
             <span class="settings__title">Friends</span>
           </li>
         </ul>
-      </sections>
+      </section>
+      <section class="settings__sections">
+        <ul class="settings__list">
+          <li class="settings__setting">
+            <span class="settings__icon"><i class="fas fa-lock"></i></span>
+            <span class="settings__title">Privacy</span>
+          </li>
+          <li class="settings__setting">
+            <span class="settings__icon"><i class="far fa-bell"></i></span>
+            <span class="settings__title">Notifications</span>
+          </li>
+          <li class="settings__setting">
+            <span class="settings__icon"><i class="far fa-user"></i></span>
+            <span class="settings__title">Friends</span>
+          </li>
+        </ul>
+      </section>
     </main>
+    <div class="bigScreen">
+      <span class="bigScreen__text">please make your screen small!!</span>
+    </div>
   </body>
 </html>
